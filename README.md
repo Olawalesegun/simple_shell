@@ -319,14 +319,14 @@ $
 
 ## Authors ##
 
-í±¤ **SEGUN OLAWALE**
+ï¿½ï¿½ï¿½ **SEGUN OLAWALE**
 
 - GitHub: [@Olawalesegun](https://github.com/Olawalesegun)
-- Twitter: [@ehoneahobed](https://twitter.com/Motai_tk)
+- Twitter: [@Motai_tk](https://twitter.com/Motai_tk)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/segun-nuhu-olawale-977a4b19a/)
 
-í±¤ **TIONGE MUGHOGHO**
+ï¿½ï¿½ï¿½ **TIONGE MUGHOGHO**
 
-- GitHub: [@JUSTICEMENSAH-ALX](https://github.com/tionge6)
+- GitHub: [@tionge6](https://github.com/tionge6)
 - LinkedIn: [LinkedIn](linkedin.com/in/tionge-mughogho-1a13b6223/)
-- Twitter: [@JUSTICEMBLAY](https://twitter.com/Motai_tk)
+- Twitter: [@tionge](https://twitter.com/Motai_tk)
