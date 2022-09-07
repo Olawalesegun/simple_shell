@@ -1,9 +1,10 @@
 *************************** README FILE ON SHELL PROJECT**********************************
+```
+	1. Segun Olawale
+	2. Tionge Mughogho
+```
 
-1. Segun Olawale
-2. Tionge Mughogho
-
-Here are some of the guidelines that helped us in the execution of this project:
+## Here are some of the guidelines that helped us in the execution of this project:
 
    - Who designed and implemented the original Unix operating system
    - Who wrote the first version of the UNIX shell
@@ -19,3 +20,21 @@ Here are some of the guidelines that helped us in the execution of this project:
    - How to execute another program with the execve system call
    - How to suspend the execution of a process until one of its children terminates
    - What is EOF / “end-of-file”?
+
+   Compilation
+
+## Our shell will be compiled this way:
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+Testing
+
+At the end of this project our shell should work like this in interactive mode:
+
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+
