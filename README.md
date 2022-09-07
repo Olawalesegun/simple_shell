@@ -1,4 +1,4 @@
-*************************** README FILE ON SHELL PROJECT**********************************
+### README FILE ON SHELL PROJECT
 ```
 	1. Segun Olawale
 	2. Tionge Mughogho
