@@ -1,4 +1,6 @@
-// ALIAS
+******THIS IS A GUIDE FOR ALL ON HOW TO UNDERSTAND & USE THE SIMPLE SHELL******
+
+## ALIAS ##
 alias: alias
        Define or display aliases.
 
@@ -15,7 +17,7 @@ alias: alias
     alias returns true unless a NAME is supplied for which no alias has been
     defined.
 
-//CD
+## CD ##
 cd: cd
     Change the shell working directory.
 
@@ -31,7 +33,7 @@ cd: cd
     Returns 0 if the directory is changed, and if $PWD is set successfully when
     -P is used; non-zero otherwise.
 
-//ENV
+## ENV ##
 env: env
     Print environment
 
@@ -40,7 +42,7 @@ env: env
 
       Return environment to standard output.
 
-//HELP
+## HELP ##
 help: help
     Display information about builtin commands.
 
@@ -51,7 +53,7 @@ help: help
     Exit Status:
     Returns success unless PATTERN is not found or an invalid option is given.
 
-//HISTORY
+## HISTORY ##
 history: history
     Display or manipulate the history list.
 
@@ -61,7 +63,7 @@ history: history
     Exit Status:
     Returns success unless an invalid option is given or an error occurs.
 
-//SETENV
+## SETENV ##
 setenv: setenv
     Set values of environment variables.
 
@@ -69,15 +71,15 @@ setenv: setenv
     Returns success unless an invalid option is given.
 
 ## UNALIAS ##
-```unalias: unalias
+unalias: unalias
     Remove each NAME from the list of defined aliases.
-```
+
     Return success unless a NAME is not an existing alias.
 
 ## UNSETEN ##
-```unsetenv: unsetenv
+unsetenv: unsetenv
 	Remove each NAME from the list of defined environment variables.
-```
+
 	Options:
 	NONE. I mean, really, who do you think wrote this? Ken Thompson or Dennis Ritchie?
 
@@ -85,9 +87,9 @@ setenv: setenv
 	Return success unless a NAME is not an existing alias.
 
 ## UNSET ##
-```unset: unset
+unset: unset
     Unset values and attributes of shell variables and functions.
-```
+
     For each NAME, remove the corresponding variable or function.
     Without options, unset first tries to unset a variable, and if that fails,
 
