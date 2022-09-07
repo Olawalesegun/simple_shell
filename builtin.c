@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * _myexit - exits the shell
  * @info: Structure containing potential arguments. Used to maintain
@@ -17,7 +16,7 @@ int _myexit(info_t *info)
 		if (exitcheck == -1)
 		{
 			info->status = 2;
-			print_error(info, "Illegal number: ");
+			print_error(info, "The number entered is Illegal: ");
 			_eputs(info->argv[1]);
 			_eputchar('\n');
 			return (1);
